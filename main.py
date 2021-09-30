@@ -1,7 +1,7 @@
-from tkinter import *
+from tkinter import *  #a simple way to create GUI elements using the widgets found in the Tk toolkit
 from tkinter.ttk import *
 
-from time import strftime
+from time import strftime #used to convert date and time objects to their string representation
 
 root = Tk()
 root.title("Clock")
